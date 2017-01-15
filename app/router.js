@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('articles', function() {
     this.route('article', { path: ':article_id' });
   });
+
+  this.route('bookmarks', function() {});
 });
 
 export default Router;
